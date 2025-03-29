@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 const API_KEY = 'live_qnLNvnoCRPpu05b66eXqYGpJ2vBnc1fxXJhIGATZKLoIOuoTy4O7GdPVKpLB2cwR';
-const API_URL = 'https://api.thecatapi.com/v1/images/search';
+const API_URL = 'https://api.thecatapi.com/v1/images/search?has_breeds=1';
 
 function App() {
   const [catData, setCatData] = useState(null);
